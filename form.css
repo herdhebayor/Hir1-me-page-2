@@ -35,7 +35,7 @@ label::after{
     border-top-right-radius: 50px;
     bottom: -20px;
     transform: rotate(34deg);
-    right: 5px;
+    right: 6px;
     z-index: -1;
 }
 .mt-3{

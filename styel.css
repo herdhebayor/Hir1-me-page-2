@@ -32,7 +32,7 @@ nav{
     border-top-right-radius: 50px;
     bottom: -20px;
     transform: rotate(34deg);
-    right: 5px;
+    right: 6px;
     z-index: -1;
 }
 .form,
@@ -40,6 +40,16 @@ nav{
 .email-input{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.email-input{
+    padding: 15px;
+}
+.button{
+    padding: 11px;
+}
+.copyright a:hover{
+    color: rgb(0, 200, 255);
+    text-decoration: underline;
 }
 .location{
     position: relative;
@@ -62,8 +72,6 @@ section.bg-primary{
     position: absolute;
     bottom: 0;
     right: 50px;
-    height: 480px;
-    width: 280px;
 }
 .my-image img{
     width: 100%;
